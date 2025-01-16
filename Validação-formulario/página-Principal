@@ -1,0 +1,20 @@
+<html>
+<meta charset="utf8">
+<head>
+<title>Cadastro de Produtos</title>
+<script src="validação.js"></script>
+ <link rel="stylesheet" href="deseing.css">
+<body>
+<div>
+<form method="post" action="validar.php">
+<br>Nome:<input type="text" name="nome" size=10 maxlength=10 title="Digite o Codigo"><br>
+<br>Endereço:<input type="text" name="endereco" size=30  title="Digite seu E-mail"><br>
+<br>CEP:<input type="text" name="CEP"  title="Digite o preço do produto"><br>
+<br>E-mail:<input type="text" name="E-mail"  title="Digite o preço do produto"><br>
+<br>Telefone:<input type="number" name="telefone"  title="Digite o preço do produto"><br>
+<br>CPF:<input type="number" name="CPF"  title="Digite o preço do produto"><br>
+<input onclick='valida()'; type="submit" name="enviar" value="Enviar dados"><input type="reset" name="limpar" value="Limpar dados"><br>
+</form>
+</div>
+</body>
+</html>
